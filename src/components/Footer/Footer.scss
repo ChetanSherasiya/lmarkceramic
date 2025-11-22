@@ -1,0 +1,77 @@
+.footer-section {
+  background: #f8f9fa;
+  padding: 60px 0 30px;
+  font-size: 15px;
+  color: #2f2f2f;
+}
+
+.footer-logo img {
+  width: 160px;
+}
+
+.footer-title {
+  font-weight: 700;
+  color: #2f2f2f;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #2f2f2f;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f9bf29;
+}
+
+.footer-contact .fa {
+  font-size: 18px;
+  color: #f9bf29;
+}
+
+.footer-contact a {
+  color: #2f2f2f;
+  transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+  color: #f9bf29;
+}
+/* ✅ Footer contact alignment fix (with text-primary icons) */
+.footer-contact .footer-item {
+  margin-bottom: 12px;
+}
+
+.footer-contact .icon-text {
+  display: flex;
+  align-items: flex-start; /* aligns multiline text properly */
+  gap: 10px;
+}
+
+.footer-contact .icon-text span {
+  font-size: 18px;
+  line-height: 1.4;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.footer-contact .icon-text p,
+.footer-contact .icon-text a {
+  margin: 0;
+  color: #2f2f2f;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.footer-contact .icon-text a:hover {
+  color: #f9bf29;
+}
+

@@ -1,0 +1,159 @@
+.hero-slider {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background: #3b5d50; // brand background fallback color
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-wrapper,
+  .swiper-slide {
+    height: 100% !important;
+  }
+
+  .slide-bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* ✅ No crop on mobile */
+    @media (max-width: 768px) {
+      background-size: contain;
+      background-color: #3b5d50; // fills gaps with brand color
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    inset: 0;
+  }
+
+  .slide-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 1rem;
+    max-width: 600px;
+
+    h1 {
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #ffffff;
+
+      @media (min-width: 768px) {
+        font-size: 2.8rem;
+      }
+
+      @media (min-width: 1400px) {
+        font-size: 54px;
+      }
+    }
+
+    p {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 1rem;
+      margin-bottom: 25px;
+
+      @media (min-width: 992px) {
+        font-size: 1.1rem;
+      }
+    }
+
+    .btn {
+      background-color: #f9bf29;
+      color: #3b5d50;
+      font-weight: 600;
+      padding: 0.8rem 2rem;
+      border-radius: 50px;
+      border: none;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #d6a31f;
+        color: #fff;
+      }
+    }
+  }
+
+  /* ✅ Mobile height adjustments */
+  @media (max-width: 576px) {
+    height: 60vh;
+
+    .slide-bg,
+    .swiper,
+    .swiper-wrapper,
+    .swiper-slide {
+      height: 60vh !important;
+    }
+
+    .slide-content h1 {
+      font-size: 1.6rem;
+    }
+
+    .slide-content p {
+      font-size: 0.9rem;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none; /* hide arrows for small devices */
+    }
+  }
+}
+
+/* ✅ Swiper Navigation Buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #f9bf29 !important;
+  transition: all 0.3s ease;
+  width: 45px;
+  height: 45px;
+
+  &:after {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  &:hover {
+    color: #d6a31f !important;
+    transform: scale(1.1);
+  }
+}
+
+/* ✅ Swiper Pagination Dots */
+.swiper-pagination {
+  bottom: 25px !important;
+}
+
+.swiper-pagination-bullet {
+  background: #f9bf29 !important;
+  opacity: 0.6;
+  width: 10px;
+  height: 10px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background: #f9bf29 !important;
+  opacity: 1;
+  transform: scale(1.3);
+}
