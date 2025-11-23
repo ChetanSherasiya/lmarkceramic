@@ -1,68 +1,82 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className="main-header">
       <nav
         className="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
-        arial-label="Furni navigation bar"
+        aria-label="Furni navigation bar"
       >
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <NavLink className="navbar-brand" to="/">
             <img
               className="brand-img"
               src="/src/assets/images/lmark-ceramic.png"
               alt="lmark-ceramic"
             />
-          </a>
+          </NavLink>
 
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarsFurni"
+            onClick={toggleMenu}
             aria-controls="navbarsFurni"
-            aria-expanded="false"
+            aria-expanded={isOpen}
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarsFurni">
+          <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarsFurni">
             <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-              <li
-                className="nav-item"
-              >
-                <NavLink to="/" className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }>
+              <li className="nav-item">
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                  onClick={() => setIsOpen(false)}
+                >
                   HOME
                 </NavLink>
               </li>
-              <li
-                className="nav-item"
-              >
-                <NavLink to="/about" className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }>
+              <li className="nav-item">
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                  onClick={() => setIsOpen(false)}
+                >
                   ABOUT US
                 </NavLink>
               </li>
-              <li
-                className="nav-item"
-              >
-                <NavLink to="/products" className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }>
+              <li className="nav-item">
+                <NavLink
+                  to="/products"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                  onClick={() => setIsOpen(false)}
+                >
                   PRODUCTS
                 </NavLink>
               </li>
-              <li
-                className="nav-item"
-              >
-                <NavLink to="/contact" className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }>
+              <li className="nav-item">
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                  onClick={() => setIsOpen(false)}
+                >
                   CONTACT US
                 </NavLink>
               </li>
