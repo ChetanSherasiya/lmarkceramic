@@ -16,13 +16,13 @@ const Contact = () => {
       <div className="hero">
 				<div className="container">
 					<div className="row justify-content-between">
-						<div className="col-lg-5">
+						<div className="col-lg-7">
 							<SectionHeader
                 title="Contact Us"
-                subtitle="We'd love to hear from you! Send us a message or reach us through the following channels."
+                subtitle="Let’s talk about your project — we’re here to help bring your ideas to life."
               />
 						</div>
-						<div className="col-lg-7">
+						<div className="col-lg-5">
 							<div className="hero-img-wrap"></div>
 						</div>
 					</div>

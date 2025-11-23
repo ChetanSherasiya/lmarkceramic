@@ -49,17 +49,6 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/about"
-                  className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
-                  }
-                  onClick={() => setIsOpen(false)}
-                >
-                  ABOUT US
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
                   to="/products"
                   className={({ isActive }) =>
                     isActive ? "nav-link active" : "nav-link"
@@ -67,6 +56,17 @@ const Header = () => {
                   onClick={() => setIsOpen(false)}
                 >
                   PRODUCTS
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                  onClick={() => setIsOpen(false)}
+                >
+                  ABOUT US
                 </NavLink>
               </li>
               <li className="nav-item">

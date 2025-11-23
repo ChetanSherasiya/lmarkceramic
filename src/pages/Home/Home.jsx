@@ -14,7 +14,6 @@ const Home = () => {
       </Helmet>
 
       <HeroSlider />
-      <HeroSection />
       <ProductSection />
       <WhyChooseUs />
       <HelpSection />

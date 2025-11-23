@@ -8,7 +8,7 @@ const About = () => {
         <title>About Us | Lmark Ceramic</title>
         <meta
           name="description"
-          content="Learn more about Lmark Ceramic — our story, our values, and why customers trust us for premium ceramic tiles and interior design solutions."
+          content="Driven by innovation and excellence, Lmark Ceramic offers beautifully crafted tiles that redefine aesthetics and performance."
         />
       </Helmet>
 
@@ -16,13 +16,13 @@ const About = () => {
       <div className="hero">
 				<div className="container">
 					<div className="row justify-content-between">
-						<div className="col-lg-5">
+						<div className="col-lg-7">
 							<SectionHeader
                 title="About Us"
-                subtitle="We’d love to hear from you! Send us a message or reach us through the following channels."
+                subtitle="Driven by innovation and excellence, Lmark Ceramic offers beautifully crafted tiles that redefine aesthetics and performance."
               />
 						</div>
-						<div className="col-lg-7">
+						<div className="col-lg-5">
 							<div className="hero-img-wrap"></div>
 						</div>
 					</div>

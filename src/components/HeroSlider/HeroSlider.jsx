@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -16,17 +17,17 @@ const HeroSlider = () => {
     },
     {
       id: 2,
-      image: "/src/assets/images/slider2.jpg",
+      image: "/src/assets/images/slider4.png",
       title: "Premium Ceramic Collections",
       description: "Discover our exclusive range of high-quality ceramic tiles.",
-      buttonText: "View Collection",
+      buttonText: "Explore Now",
     },
     {
       id: 3,
-      image: "/src/assets/images/slider3.jpg",
+      image: "/src/assets/images/slider2.png",
       title: "Redefining Elegance & Style",
       description: "Transform your home with our timeless and elegant designs.",
-      buttonText: "Get Started",
+      buttonText: "Explore Now",
     },
   ];
 
@@ -55,7 +56,7 @@ const HeroSlider = () => {
                 <div className="slide-content">
                   <h1>{slide.title}</h1>
                   <p>{slide.description}</p>
-                  <button className="btn">{slide.buttonText}</button>
+                  <Link className="btn" to="/products">{slide.buttonText}</Link>
                 </div>
               </div>
             </div>

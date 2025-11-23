@@ -152,7 +152,7 @@ a.more {
 }
 @media (min-width: 992px) {
   .hero .intro-excerpt {
-    max-width: 450px;
+    max-width: 600px;
   }
 }
 .hero h1 {
