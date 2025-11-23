@@ -1,16 +1,15 @@
 import { Helmet } from "react-helmet-next";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import ContactInfo from "../../components/ContactInfo/ContactInfo";
 
 const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Lmark Ceramic | Contact Us</title>
+        <title>Contact Us | Lmark Ceramic</title>
         <meta
           name="description"
-          content="Contact Lmark Ceramic for premium wall and floor tiles. Get in touch with our team for inquiries and business collaborations."
+          content="Get in touch with Lmark Ceramic for inquiries about our premium tile collections. We are here to assist you with your interior design needs."
         />
       </Helmet>
       <div className="hero">

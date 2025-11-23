@@ -5,10 +5,10 @@ const Collections = () => {
   return (
     <>
       <Helmet>
-        <title>Lmark Ceramic | Collections</title>
+        <title>Collections | Lmark Ceramic</title>
         <meta
           name="description"
-          content="Explore a wide range of ceramic wall and floor tiles by Lmark Ceramic. Modern, durable, and elegant."
+          content="Explore our exclusive collection of Wall, Porcelain, and GVT/PGVT tiles. Find the perfect design to elevate your home or office interiors."
         />
       </Helmet>
       {/* Hero Section */}
@@ -81,7 +81,7 @@ const Collections = () => {
             <div className="col-lg-5">
               <div className="img-wrap">
                 <img
-                  src="/src/assets/images/collections/wall/wall-tile-1.jpg"
+                  src="/assets/images/collections/wall/wall-tile-1.jpg"
                   alt="Wall Tiles"
                   className="img-fluid"
                 />
@@ -97,9 +97,9 @@ const Collections = () => {
           <div className="row justify-content-between">
             <div className="col-lg-7 mb-5 mb-lg-0">
               <div className="imgs-grid">
-                <div className="grid grid-1"><img src="/src/assets/images/collections/porcelain/porcelain-tile-2.jpg" alt="Untree.co" /></div>
-                <div className="grid grid-2"><img src="/src/assets/images/collections/porcelain/porcelain-tile-1.jpg" alt="Untree.co" /></div>
-                <div className="grid grid-3"><img src="/src/assets/images/collections/porcelain/porcelain-tile-3.jpg" alt="Untree.co" /></div>
+                <div className="grid grid-1"><img src="/assets/images/collections/porcelain/porcelain-tile-2.jpg" alt="Untree.co" /></div>
+                <div className="grid grid-2"><img src="/assets/images/collections/porcelain/porcelain-tile-1.jpg" alt="Untree.co" /></div>
+                <div className="grid grid-3"><img src="/assets/images/collections/porcelain/porcelain-tile-3.jpg" alt="Untree.co" /></div>
               </div>
             </div>
             <div className="col-lg-5 ps-lg-5">
@@ -170,7 +170,7 @@ const Collections = () => {
             <div className="col-lg-5">
               <div className="img-wrap">
                 <img
-                  src="/src/assets/images/collections/gvt-pgvt/gvt-tile-2.jpg"
+                  src="/assets/images/collections/gvt-pgvt/gvt-tile-2.jpg"
                   alt="Why Choose Lmark Ceramic"
                   className="img-fluid"
                 />

@@ -18,7 +18,7 @@ const Header = () => {
           <NavLink className="navbar-brand" to="/">
             <img
               className="brand-img"
-              src="/src/assets/images/lmark-ceramic.png"
+              src="/assets/images/lmark-ceramic.png"
               alt="lmark-ceramic"
             />
           </NavLink>

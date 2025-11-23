@@ -5,9 +5,9 @@ const HelpSection = () => {
             <div className="row justify-content-between">
                 <div className="col-lg-7 mb-5 mb-lg-0">
                     <div className="imgs-grid">
-                        <div className="grid grid-1"><img src="/src/assets/images/tiles-anderson-articleLarge.png" alt="Untree.co" /></div>
-                        <div className="grid grid-2"><img src="/src/assets/images/img-grid-6.jpg" alt="Untree.co" /></div>
-                        <div className="grid grid-3"><img src="/src/assets/images/why-choose-us-img.jpg" alt="Untree.co" /></div>
+                        <div className="grid grid-1"><img src="/assets/images/tiles-anderson-articleLarge.png" alt="Untree.co" /></div>
+                        <div className="grid grid-2"><img src="/assets/images/img-grid-6.jpg" alt="Untree.co" /></div>
+                        <div className="grid grid-3"><img src="/assets/images/why-choose-us-img.jpg" alt="Untree.co" /></div>
                     </div>
                 </div>
                 <div className="col-lg-5 ps-lg-5">
