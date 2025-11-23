@@ -4,47 +4,35 @@ const WhyChooseUs = () => {
         <div className="container">
             <div className="row justify-content-between">
                 <div className="col-lg-6">
-                    <h2 className="section-title">Why Choose Us</h2>
-                    <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+                    <h2 className="section-title">Core Collection</h2>
+                    <p>At Lmark Ceramic, sustainability is at the heart of our Core Collection. From responsibly sourced raw materials to energy-efficient manufacturing, we ensure every tile is crafted with minimal environmental impact. Our commitment to reducing our carbon footprint reflects our promise to deliver exceptional quality while caring for the planet. </p>
 
                     <div className="row my-5">
                         <div className="col-6 col-md-6">
                             <div className="feature">
-                                <div className="icon">
-                                    <img src="/src/assets/images/truck.svg" alt="Image" className="imf-fluid" />
-                                </div>
-                                <h3>Fast &amp; Free Shipping</h3>
-                                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                                <h3>Essential Everyday Designs</h3>
+                                <p>A selection of versatile tiles crafted for modern and classic spaces.</p>
                             </div>
                         </div>
 
                         <div className="col-6 col-md-6">
                             <div className="feature">
-                                <div className="icon">
-                                    <img src="/src/assets/images/bag.svg" alt="Image" className="imf-fluid" />
-                                </div>
-                                <h3>Easy to Shop</h3>
-                                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                                <h3>Timeless Color Palette</h3>
+                                <p>Neutral, elegant shades that blend effortlessly with any interior style.</p>
                             </div>
                         </div>
 
                         <div className="col-6 col-md-6">
                             <div className="feature">
-                                <div className="icon">
-                                    <img src="/src/assets/images/support.svg" alt="Image" className="imf-fluid" />
-                                </div>
-                                <h3>24/7 Support</h3>
-                                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                                <h3>Practical Sizes & Finishes</h3>
+                                <p>Available in the most-used sizes with matte, glossy, and textured options.</p>
                             </div>
                         </div>
 
                         <div className="col-6 col-md-6">
                             <div className="feature">
-                                <div className="icon">
-                                    <img src="/src/assets/images/return.svg" alt="Image" className="imf-fluid" />
-                                </div>
-                                <h3>Hassle Free Returns</h3>
-                                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                                <h3>Reliable Durability</h3>
+                                <p>Made for long-lasting performance with easy maintenance and everyday strength.</p>
                             </div>
                         </div>
 
@@ -53,7 +41,7 @@ const WhyChooseUs = () => {
 
                 <div className="col-lg-5">
                     <div className="img-wrap">
-                        <img src="/src/assets/images/why-choose-us-img.jpg" alt="Image" className="img-fluid" />
+                        <img src="/src/assets/images/img-grid-7.jpg" alt="Image" className="img-fluid" />
                     </div>
                 </div>
 

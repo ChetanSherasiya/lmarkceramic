@@ -49,13 +49,13 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/products"
+                  to="/collections"
                   className={({ isActive }) =>
                     isActive ? "nav-link active" : "nav-link"
                   }
                   onClick={() => setIsOpen(false)}
                 >
-                  PRODUCTS
+                  COLLECTIONS
                 </NavLink>
               </li>
               <li className="nav-item">

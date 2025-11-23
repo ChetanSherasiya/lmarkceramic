@@ -1,5 +1,4 @@
 import { Helmet } from "react-helmet-next";
-import HeroSection from "../../components/HeroSection/HeroSection";
 import HeroSlider from "../../components/HeroSlider/HeroSlider";
 import ProductSection from "../../components/ProductSection/ProductSection";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
