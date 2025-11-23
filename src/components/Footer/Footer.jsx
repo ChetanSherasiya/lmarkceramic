@@ -52,7 +52,7 @@ const Footer = () => {
           <div className="col-lg-8">
             <div className="row links-wrap">
               {/* ✅ Sitemap Section */}
-              <div className="col-6 col-sm-6 col-md-6 mb-4">
+              <div className="col-12 col-md-6 mb-4">
                 <h5 className="footer-title">SITEMAP</h5>
                 <ul className="list-unstyled footer-links">
                   <li>
@@ -67,7 +67,7 @@ const Footer = () => {
                 </ul>
               </div>
               {/* ✅ Contact Info Section */}
-              <div className="col-6 col-sm-6 col-md-6">
+              <div className="col-12 col-md-6">
                 <h5 className="footer-title">CONTACT</h5>
                 <ul className="list-unstyled footer-contact">
                   <li className="footer-item">

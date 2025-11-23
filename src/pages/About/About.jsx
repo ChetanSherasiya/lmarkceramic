@@ -147,7 +147,7 @@ const About = () => {
                 <li>Donec vitae odio quis nisl dapibus malesuada</li>
                 <li>Donec vitae odio quis nisl dapibus malesuada</li>
               </ul>
-              <p><a herf="#" className="btn btn-primary">Explore</a></p>
+              <p><a href="#" className="btn btn-primary">Explore</a></p>
             </div>
           </div>
         </div>

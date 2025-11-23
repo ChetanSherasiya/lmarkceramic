@@ -36,7 +36,7 @@ const Header = () => {
                 <NavLink to="/" className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }>
-                  Home
+                  HOME
                 </NavLink>
               </li>
               <li
@@ -45,7 +45,7 @@ const Header = () => {
                 <NavLink to="/about" className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }>
-                  About Us
+                  ABOUT US
                 </NavLink>
               </li>
               <li
@@ -54,7 +54,7 @@ const Header = () => {
                 <NavLink to="/products" className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }>
-                  Products
+                  PRODUCTS
                 </NavLink>
               </li>
               <li
@@ -63,7 +63,7 @@ const Header = () => {
                 <NavLink to="/contact" className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }>
-                  Contact Us
+                  CONTACT US
                 </NavLink>
               </li>
             </ul>

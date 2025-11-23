@@ -10,17 +10,23 @@ const HeroSlider = () => {
     {
       id: 1,
       image: "/src/assets/images/slider1.jpg",
-      caption: "Modern Interior Design Studio",
+      title: "Modern Interior Design Studio",
+      description: "Crafting spaces that blend functionality with aesthetic perfection.",
+      buttonText: "Explore Now",
     },
     {
       id: 2,
       image: "/src/assets/images/slider2.jpg",
-      caption: "Premium Ceramic Collections",
+      title: "Premium Ceramic Collections",
+      description: "Discover our exclusive range of high-quality ceramic tiles.",
+      buttonText: "View Collection",
     },
     {
       id: 3,
       image: "/src/assets/images/slider3.jpg",
-      caption: "Redefining Elegance & Style",
+      title: "Redefining Elegance & Style",
+      description: "Transform your home with our timeless and elegant designs.",
+      buttonText: "Get Started",
     },
   ];
 
@@ -45,9 +51,13 @@ const HeroSlider = () => {
               }}
             >
               <div className="overlay"></div>
-              {/* <div className="slide-content">
-                <h1>{slide.caption}</h1>
-              </div> */}
+              <div className="container">
+                <div className="slide-content">
+                  <h1>{slide.title}</h1>
+                  <p>{slide.description}</p>
+                  <button className="btn">{slide.buttonText}</button>
+                </div>
+              </div>
             </div>
           </SwiperSlide>
         ))}
