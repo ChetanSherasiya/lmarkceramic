@@ -15,7 +15,7 @@ const HeroSection = () => {
 						</div>
 						<div className="col-lg-7">
 							<div className="hero-img-wrap">
-								<img src="/src/assets/images/couch.png" className="img-fluid" />
+								<img src="/src/assets/images/product-highlight2.png" className="img-fluid" />
 							</div>
 						</div>
 					</div>

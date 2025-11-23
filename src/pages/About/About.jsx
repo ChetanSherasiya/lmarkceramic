@@ -8,7 +8,7 @@ const About = () => {
         <title>About Us | Lmark Ceramic</title>
         <meta
           name="description"
-          content="Learn more about Lmark Ceramic — our story, our values, and why customers trust us for premium ceramic tiles and interior design solutions."
+          content="Driven by innovation and excellence, Lmark Ceramic offers beautifully crafted tiles that redefine aesthetics and performance."
         />
       </Helmet>
 
@@ -16,16 +16,14 @@ const About = () => {
       <div className="hero">
 				<div className="container">
 					<div className="row justify-content-between">
-						<div className="col-lg-5">
+						<div className="col-lg-7">
 							<SectionHeader
                 title="About Us"
-                subtitle="We’d love to hear from you! Send us a message or reach us through the following channels."
+                subtitle="Driven by innovation and excellence, Lmark Ceramic offers beautifully crafted tiles that redefine aesthetics and performance."
               />
 						</div>
-						<div className="col-lg-7">
-							<div className="hero-img-wrap">
-								<img src="/src/assets/images/couch.png" className="img-fluid" />
-							</div>
+						<div className="col-lg-5">
+							<div className="hero-img-wrap"></div>
 						</div>
 					</div>
 				</div>
@@ -36,77 +34,44 @@ const About = () => {
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6">
-              <h2 className="section-title">Why Choose Us</h2>
+              <h2 className="section-title">Who We Are</h2>
               <p>
-                With decades of experience, Lmark Ceramic stands for quality,
-                trust, and innovation in every tile we produce.
+                Lmark Ceramic is a trusted trading company offering high-quality ceramic, porcelain, GVT/PGVT, and wall tiles for modern and classic interiors. With a commitment to excellence, we source and deliver tiles that blend style, durability, and superior craftsmanship. Our goal is to provide designers, architects, and homeowners with premium tile solutions that transform every space with elegance and precision.
               </p>
 
               <div className="row my-5">
                 <div className="col-6 col-md-6">
                   <div className="feature">
-                    <div className="icon">
-                      <img
-                        src="/src/assets/images/truck.svg"
-                        alt="Fast Shipping"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h3>Fast &amp; Reliable Delivery</h3>
+                    <h3>Premium Tile Supplier</h3>
                     <p>
-                      We ensure on-time delivery across India and abroad with
-                      our trusted logistics partners.
+                      Delivering high-quality ceramic, porcelain, and GVT/PGVT tiles.
                     </p>
                   </div>
                 </div>
 
                 <div className="col-6 col-md-6">
                   <div className="feature">
-                    <div className="icon">
-                      <img
-                        src="/src/assets/images/bag.svg"
-                        alt="Easy Shopping"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h3>Easy Order Process</h3>
+                    <h3>Modern & Classic Designs</h3>
                     <p>
-                      Our streamlined order system ensures a hassle-free buying
-                      experience for every customer.
+                      Curated collections to suit every interior style.
                     </p>
                   </div>
                 </div>
 
                 <div className="col-6 col-md-6">
                   <div className="feature">
-                    <div className="icon">
-                      <img
-                        src="/src/assets/images/support.svg"
-                        alt="Support"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h3>24/7 Customer Support</h3>
+                    <h3>Trusted Trading Company</h3>
                     <p>
-                      Our team is always available to answer questions and
-                      provide expert assistance.
+                      Connecting customers with reliable, reputed manufacturers.
                     </p>
                   </div>
                 </div>
 
                 <div className="col-6 col-md-6">
                   <div className="feature">
-                    <div className="icon">
-                      <img
-                        src="/src/assets/images/return.svg"
-                        alt="Returns"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <h3>Quality Guarantee</h3>
+                    <h3>Quality-Driven Approach</h3>
                     <p>
-                      We stand behind our craftsmanship and ensure customer
-                      satisfaction with every product.
+                      Focused on durability, design excellence, and customer satisfaction.
                     </p>
                   </div>
                 </div>
@@ -116,7 +81,7 @@ const About = () => {
             <div className="col-lg-5">
               <div className="img-wrap">
                 <img
-                  src="/src/assets/images/why-choose-us-img.jpg"
+                  src="/src/assets/images/img-grid-7.jpg"
                   alt="Why Choose Lmark Ceramic"
                   className="img-fluid"
                 />
@@ -132,22 +97,22 @@ const About = () => {
           <div className="row justify-content-between">
             <div className="col-lg-7 mb-5 mb-lg-0">
               <div className="imgs-grid">
-                <div className="grid grid-1"><img src="/src/assets/images/img-grid-1.jpg" alt="Untree.co" /></div>
-                <div className="grid grid-2"><img src="/src/assets/images/img-grid-2.jpg" alt="Untree.co" /></div>
-                <div className="grid grid-3"><img src="/src/assets/images/img-grid-3.jpg" alt="Untree.co" /></div>
+                <div className="grid grid-1"><img src="/src/assets/images/tiles-anderson-articleLarge.png" alt="Untree.co" /></div>
+                <div className="grid grid-2"><img src="/src/assets/images/img-grid-6.jpg" alt="Untree.co" /></div>
+                <div className="grid grid-3"><img src="/src/assets/images/why-choose-us-img.jpg" alt="Untree.co" /></div>
               </div>
             </div>
             <div className="col-lg-5 ps-lg-5">
-              <h2 className="section-title mb-4">We Help You Make Modern Interior Design</h2>
-              <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+              <h2 className="section-title mb-4">What We Stand For</h2>
+              <p>At Lmark Ceramic, we believe in quality, trust, and customer satisfaction. Our team works closely with reliable manufacturers and design experts to bring the latest trends and timeless styles to the market. From product selection to final delivery, we ensure a seamless experience backed by knowledge, transparency, and dedication. We aim to inspire spaces with tiles that combine innovation, strength, and lasting beauty.</p>
 
               <ul className="list-unstyled custom-list my-4">
-                <li>Donec vitae odio quis nisl dapibus malesuada</li>
-                <li>Donec vitae odio quis nisl dapibus malesuada</li>
-                <li>Donec vitae odio quis nisl dapibus malesuada</li>
-                <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                <li>Commitment to Quality</li>
+                <li>Customer-First Service</li>
+                <li>Design Innovation</li>
+                <li>Reliable Partnerships</li>
               </ul>
-              <p><a herf="#" className="btn btn-primary">Explore</a></p>
+              <p><a href="/collections" className="btn btn-primary">Explore</a></p>
             </div>
           </div>
         </div>

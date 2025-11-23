@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+  max-width: 100vw; // Prevent horizontal scroll
 
   background: #3b5d50; // brand background fallback color
 
@@ -15,7 +16,7 @@
 
   .swiper-wrapper,
   .swiper-slide {
-    height: 100% !important;
+    height: 100%;
   }
 
   .slide-bg {
@@ -27,47 +28,62 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; // Align content to the left
 
-    /* ✅ No crop on mobile */
     @media (max-width: 768px) {
-      background-size: contain;
-      background-color: #3b5d50; // fills gaps with brand color
+      background-position: center top;
     }
   }
 
   .overlay {
     position: absolute;
     inset: 0;
+    background: rgba(0, 0, 0, 0.4); // Darker overlay for better text contrast
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: 2;
+
+    @media (min-width: 576px) { max-width: 540px; }
+    @media (min-width: 768px) { max-width: 720px; }
+    @media (min-width: 992px) { max-width: 960px; }
+    @media (min-width: 1200px) { max-width: 1140px; }
+    @media (min-width: 1400px) { max-width: 1320px; }
   }
 
   .slide-content {
-    position: relative;
-    z-index: 2;
-    text-align: center;
+    text-align: left;
     color: #ffffff;
-    padding: 0 1rem;
-    max-width: 600px;
+    max-width: 800px;
 
     h1 {
       font-weight: 700;
-      font-size: 2rem;
+      font-size: 2rem; // Reduced base size
       margin-bottom: 20px;
       color: #ffffff;
+      line-height: 1.2;
 
       @media (min-width: 768px) {
-        font-size: 2.8rem;
+        font-size: 2.8rem; // Reduced md size
       }
 
       @media (min-width: 1400px) {
-        font-size: 54px;
+        font-size: 3.8rem; // Reduced xxl size
       }
     }
 
     p {
-      color: rgba(255, 255, 255, 0.6);
+      color: rgba(255, 255, 255, 0.9);
       font-size: 1rem;
-      margin-bottom: 25px;
+      margin-bottom: 30px;
+      max-width: 600px;
+      line-height: 1.6;
 
       @media (min-width: 992px) {
         font-size: 1.1rem;
@@ -76,37 +92,56 @@
 
     .btn {
       background-color: #f9bf29;
-      color: #3b5d50;
+      // color: #3b5d50;
+      color: #ffffff;
       font-weight: 600;
-      padding: 0.8rem 2rem;
-      border-radius: 50px;
+      padding: 12px 30px;
+      border-radius: 30px;
       border: none;
       transition: all 0.3s ease;
+      font-size: 0.95rem;
+      cursor: pointer;
+      display: inline-block;
+      text-decoration: none;
 
       &:hover {
         background-color: #d6a31f;
         color: #fff;
+        transform: translateY(-2px);
       }
     }
   }
 
   /* ✅ Mobile height adjustments */
   @media (max-width: 576px) {
-    height: 60vh;
+    height: 65vh; // Adjusted height
 
     .slide-bg,
     .swiper,
     .swiper-wrapper,
     .swiper-slide {
-      height: 60vh !important;
+      height: 100%;
+    }
+    
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .slide-content h1 {
-      font-size: 1.6rem;
+      font-size: 1.6rem; // Smaller title for mobile
+      margin-bottom: 15px;
     }
 
     .slide-content p {
       font-size: 0.9rem;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    
+    .slide-content .btn {
+        padding: 10px 25px;
+        font-size: 0.9rem;
     }
 
     .swiper-button-next,
@@ -137,14 +172,17 @@
 
 /* ✅ Swiper Pagination Dots */
 .swiper-pagination {
-  bottom: 25px !important;
+  bottom: 20px !important;
+  text-align: center !important; // Centered dots
+  width: 100% !important;
+  padding-left: 0 !important;
 }
 
 .swiper-pagination-bullet {
   background: #f9bf29 !important;
   opacity: 0.6;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   transition: all 0.3s ease;
 
   &:hover {
@@ -155,5 +193,5 @@
 .swiper-pagination-bullet-active {
   background: #f9bf29 !important;
   opacity: 1;
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
