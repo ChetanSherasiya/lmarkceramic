@@ -10,21 +10,21 @@ const HeroSlider = () => {
   const slides = [
     {
       id: 1,
-      image: "/src/assets/images/slider1.jpg",
+      image: "/assets/images/slider1.jpg",
       title: "Modern Interior Design Studio",
       description: "Crafting spaces that blend functionality with aesthetic perfection.",
       buttonText: "Explore Now",
     },
     {
       id: 2,
-      image: "/src/assets/images/slider4.png",
+      image: "/assets/images/slider4.png",
       title: "Premium Ceramic Collections",
       description: "Discover our exclusive range of high-quality ceramic tiles.",
       buttonText: "Explore Now",
     },
     {
       id: 3,
-      image: "/src/assets/images/slider2.png",
+      image: "/assets/images/slider2.png",
       title: "Redefining Elegance & Style",
       description: "Transform your home with our timeless and elegant designs.",
       buttonText: "Explore Now",

@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
 
                 <div className="col-lg-5">
                     <div className="img-wrap">
-                        <img src="/src/assets/images/img-grid-7.jpg" alt="Image" className="img-fluid" />
+                        <img src="/assets/images/img-grid-7.jpg" alt="Image" className="img-fluid" />
                     </div>
                 </div>
 

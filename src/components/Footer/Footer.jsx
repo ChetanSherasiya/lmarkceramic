@@ -13,7 +13,7 @@ const Footer = () => {
               <a href="/" className="footer-logo">
                 <img
                   className="brand-img"
-                  src="/src/assets/images/lmark-ceramic.png"
+                  src="/assets/images/lmark-ceramic.png"
                   alt="Lmark Ceramic"
                 />
               </a>
@@ -36,7 +36,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/lmarkceramic" target="_blank">
                   <span className="fa fa-brands fa-instagram"></span>
                 </a>
               </li>

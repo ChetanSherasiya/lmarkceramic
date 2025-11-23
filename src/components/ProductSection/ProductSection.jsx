@@ -10,19 +10,19 @@ const ProductSection = () => {
                 </div> 
                 <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                     <a className="product-item" href="/collections">
-                        <img src="/src/assets/images/wall-tile.png" className="img-fluid product-thumbnail" />
+                        <img src="/assets/images/wall-tile.png" className="img-fluid product-thumbnail" />
                         <h3 className="product-title">Wall Tiles</h3>
                     </a>
                 </div> 
                 <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                     <a className="product-item" href="/collections">
-                        <img src="/src/assets/images/porcelain-tile.png" className="img-fluid product-thumbnail" />
+                        <img src="/assets/images/porcelain-tile.png" className="img-fluid product-thumbnail" />
                         <h3 className="product-title">Porcelain Tiles</h3>
                     </a>
                 </div>
                 <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                     <a className="product-item" href="/collections">
-                        <img src="/src/assets/images/GVT-PGVT.jpg" className="img-fluid product-thumbnail" />
+                        <img src="/assets/images/GVT-PGVT.jpg" className="img-fluid product-thumbnail" />
                         <h3 className="product-title">GVT/PGVT</h3>
                     </a>
                 </div>

@@ -8,7 +8,7 @@ const About = () => {
         <title>About Us | Lmark Ceramic</title>
         <meta
           name="description"
-          content="Driven by innovation and excellence, Lmark Ceramic offers beautifully crafted tiles that redefine aesthetics and performance."
+          content="Learn more about Lmark Ceramic, a leading provider of high-quality ceramic and porcelain tiles. Dedicated to innovation, style, and durability."
         />
       </Helmet>
 
@@ -81,7 +81,7 @@ const About = () => {
             <div className="col-lg-5">
               <div className="img-wrap">
                 <img
-                  src="/src/assets/images/img-grid-7.jpg"
+                  src="/assets/images/img-grid-7.jpg"
                   alt="Why Choose Lmark Ceramic"
                   className="img-fluid"
                 />
@@ -97,9 +97,9 @@ const About = () => {
           <div className="row justify-content-between">
             <div className="col-lg-7 mb-5 mb-lg-0">
               <div className="imgs-grid">
-                <div className="grid grid-1"><img src="/src/assets/images/tiles-anderson-articleLarge.png" alt="Untree.co" /></div>
-                <div className="grid grid-2"><img src="/src/assets/images/img-grid-6.jpg" alt="Untree.co" /></div>
-                <div className="grid grid-3"><img src="/src/assets/images/why-choose-us-img.jpg" alt="Untree.co" /></div>
+                <div className="grid grid-1"><img src="/assets/images/tiles-anderson-articleLarge.png" alt="Untree.co" /></div>
+                <div className="grid grid-2"><img src="/assets/images/img-grid-6.jpg" alt="Untree.co" /></div>
+                <div className="grid grid-3"><img src="/assets/images/why-choose-us-img.jpg" alt="Untree.co" /></div>
               </div>
             </div>
             <div className="col-lg-5 ps-lg-5">

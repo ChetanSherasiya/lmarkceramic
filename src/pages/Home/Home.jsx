@@ -8,8 +8,11 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Lmark Ceramic | Home</title>
-        <meta name="description" content="Discover premium ceramic tiles and surfaces from Lmark Ceramic." />
+        <title>Lmark Ceramic - Premium Tiles</title>
+        <meta
+          name="description"
+          content="Discover premium ceramic, porcelain, and GVT/PGVT tiles at Lmark Ceramic. Transform your space with our modern and durable tile collections."
+        />
       </Helmet>
 
       <HeroSlider />
